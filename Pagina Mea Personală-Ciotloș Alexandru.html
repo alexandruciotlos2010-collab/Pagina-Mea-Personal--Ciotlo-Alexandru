@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Personală - Alex Ciotloș</title>
+    <style>
+        /* Stiluri generale */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* Antet (Header) */
+        header {
+            background-color: #1a252f;
+            color: #ffffff;
+            text-align: center;
+            padding: 2.5rem 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Container principal */
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Secțiuni */
+        section {
+            background: #ffffff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #1a252f;
+            border-bottom: 2px solid #cd1041; /* Roșu sportiv */
+            padding-bottom: 0.3rem;
+        }
+
+        /* Citat */
+        blockquote {
+            font-style: italic;
+            background: #f9f9f9;
+            border-left: 5px solid #cd1041;
+            margin: 1.5rem 0;
+            padding: 0.5rem 1rem;
+            color: #555;
+        }
+
+        blockquote span {
+            display: block;
+            margin-top: 0.5rem;
+            font-weight: bold;
+            color: #1a252f;
+        }
+
+        /* Tabele */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #cd1041;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        /* Liste */
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        /* Stiluri pentru Imagine */
+        .foto-masina {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-top: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .img-caption {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
+        /* Buton interactiv */
+        .btn-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .my-button {
+            background-color: #cd1041;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .my-button:hover {
+            background-color: #b00d36;
+        }
+
+        /* Subsol (Footer) */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #1a252f;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pagina Mea Personală</h1>
+        <p>Elev la Colegiul Național de Informatică „Carmen Sylva”</p>
+    </header>
+
+    <div class="container">
+
+        <section id="despre">
+            <h2>Despre mine</h2>
+            <p>Salut! Mă numesc Ciotloș Alexandru, am împlinit de curând 16 ani și sunt elev în clasa a IX-a la <strong>Colegiul Național de Informatică „Carmen Sylva”</strong>. Sunt pasionat de domeniul tehnologiei, dar și de istorie și automobile.</p>
+            
+            
+            <blockquote>
+                „Nu poți scrie o pagină de istorie dacă mergi cu spatele. Și nu poți conduce o mașină uitându-te doar în oglinda retrovizoare.”
+                <span>— Citat inspirațional auto</span>
+            </blockquote>
+        </section>
+
+        <section id="profil-tabel">
+            <h2>Profil Personal</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Informație</th>
+                        <th>Detalii</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Nume Complet</strong></td>
+                        <td>Ciotloș Alexandru Manuel</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Liceu</strong></td>
+                        <td>Colegiul Național de Informatică "Carmen Sylva”</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data Nașterii</strong></td>
+                        <td>03.06.2010</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vârstă</strong></td>
+                        <td>16 ani</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mașină Preferată</strong></td>
+                        <td>Audi RS6 Avant </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="pasiuni">
+            <h2>Pasiuni și Interese</h2>
+            <ul>
+                <li><strong>Automobile:</strong> Îmi plac mașinile puternice și elegante, în special modelele produse de <strong>Audi</strong>. Consider că designul lor sportiv îmbină perfect utilul cu performanța.</li>
+                <li><strong>Istorie:</strong> Consider că istoria ne ajută să înțelegem mai bine prezentul și să anticipăm viitorul.</li>
+                <li><strong>Informatică:</strong> Studiind la un liceu de profil, îmi dezvolt constant abilitățile digitale și logice.</li>
+            </ul>
+
+            <div style="margin-top: 1.5rem;">
+               <img src="data:image/jpeg;base64,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"  width="500" height="333">
+                <div class="img-caption">Audi RS6 Avant - Modelul meu preferat</div>
+            </div>
+
+            <div class="btn-container">
+                <button class="my-button" onclick="afiseazaMesaj()">Apasă butonul!</button>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p> Proiect realizat de Ciotloș Alexandru</p>
+    </footer>
+
+    <script>
+        function afiseazaMesaj() {
+            alert("Vă mulțumesc pentru atenția acordată!");
+        }
+    </script>
+
+</body>
+</html>
